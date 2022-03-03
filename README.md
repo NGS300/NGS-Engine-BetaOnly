@@ -69,6 +69,8 @@ Open Prompt Windows, Power Shell and If You're Lucky it's Visual Studio, For Com
 You can run FNF from the .exe file under export\release\windows\bin
 As for Mac, 'lime test mac -debug' should work, if not the internet surely has a guide on how to compile Haxe stuff for Mac.
 
+* This Entire Installation Is 25-27GB Which You Will Need To Use From Your PC
+
 ### Credits
 - [ninjamuffin99 (me!)](https://twitter.com/ninja_muffin99) - Programmer
 - [PhantomArcade3K](https://twitter.com/phantomarcade3k) and [Evilsk8r](https://twitter.com/evilsk8r) - Art
