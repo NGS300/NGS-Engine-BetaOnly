@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="StrumBlock_NOTE.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="StrumBlock Down0000" x="35" y="1621" width="157" height="176" frameX="-6" frameY="-2" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock Down0001" x="764" y="553" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock Down0002" x="767" y="35" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock Down0003" x="277" y="1099" width="157" height="176" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock Down0004" x="35" y="301" width="163" height="181" frameX="0" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock Down0005" x="767" y="294" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock Down0006" x="283" y="35" width="157" height="175" frameX="-6" frameY="0" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock Down0007" x="283" y="295" width="157" height="175" frameX="-6" frameY="0" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock Left0000" x="998" y="1337" width="155" height="176" frameX="-7" frameY="-2" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Left0001" x="999" y="1073" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Left0002" x="998" y="1598" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Left0003" x="277" y="1621" width="156" height="176" frameX="-6" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Left0004" x="35" y="833" width="162" height="181" frameX="0" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Left0005" x="1006" y="553" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Left0006" x="518" y="1622" width="155" height="177" frameX="-7" frameY="0" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Left0007" x="524" y="555" width="155" height="177" frameX="-7" frameY="0" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Right0000" x="758" y="1349" width="155" height="176" frameX="-7" frameY="-2" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Right0001" x="759" y="1076" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Right0002" x="766" y="812" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Right0003" x="277" y="1360" width="156" height="176" frameX="-6" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Right0004" x="35" y="567" width="162" height="181" frameX="0" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Right0005" x="758" y="1610" width="155" height="176" frameX="-7" frameY="-1" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Right0006" x="518" y="1360" width="155" height="177" frameX="-7" frameY="0" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock Right0007" x="519" y="1087" width="155" height="177" frameX="-7" frameY="0" frameWidth="162" frameHeight="182"/>
+	<SubTexture name="StrumBlock uP0000" x="35" y="1099" width="157" height="176" frameX="-6" frameY="-2" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock uP0001" x="524" y="817" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock uP0002" x="525" y="35" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock uP0003" x="35" y="1360" width="157" height="176" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock uP0004" x="35" y="35" width="163" height="181" frameX="0" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock uP0005" x="525" y="294" width="157" height="174" frameX="-6" frameY="-1" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock uP0006" x="282" y="567" width="157" height="175" frameX="-6" frameY="0" frameWidth="163" frameHeight="182"/>
+	<SubTexture name="StrumBlock uP0007" x="282" y="827" width="157" height="175" frameX="-6" frameY="0" frameWidth="163" frameHeight="182"/>
+</TextureAtlas>
