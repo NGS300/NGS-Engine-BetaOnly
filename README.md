@@ -77,6 +77,9 @@ As for Mac, 'lime test mac -debug' should work, if not the internet surely has a
 - [Kawaisprite](https://twitter.com/kawaisprite) - Musician
 
 ### Engine Credits
-- [ShadowMario](https://github.com/ShadowMario/FNF-PsychEngine/commits?author=ShadowMario) - Made the Psych Engine
+- [ShadowMario](https://github.com/ShadowMario) - Made the Psych Engine
 - [KadeDev](https://github.com/KadeDev) - Made the Kade Engine
-- [Verwex](https://github.com/Verwex/Funkin-Mic-d-Up-SC) - Made the Mic'Up
+- [Verwex](https://github.com/Verwex) - Made the Mic'Up
+
+### Helpers / Companions
+- [Juniorxefao](https://github.com/Juniorxefao) - Artist
