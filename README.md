@@ -84,4 +84,5 @@ As for Mac, 'lime test mac -debug' should work, if not the internet surely has a
 - [Verwex](https://github.com/Verwex) - Made the Mic'Up
 
 ### Helpers / Companions
-- [Juniorxefao](https://github.com/Juniorxefao) - Artist
+- [Juniorxefao](https://github.com/Juniorxefao) - Art
+- [Maty](https://github.com/MatyHUB) - Art
