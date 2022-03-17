@@ -25,7 +25,7 @@ First Step - Download Haxe Items
 2. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to Install Polymod.
 3. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to Install Discord RPC.
 
-### Compiling game
+### Compiling game API
 
 Second Step - Download API or Addons (I don't know the name of it ;-;)
 
