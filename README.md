@@ -3,7 +3,7 @@
 ![NGELogoGithub](https://user-images.githubusercontent.com/86559005/158241054-6e6e2a7a-48a8-43e2-84d3-b035f38d5819.png)
 # What is the NGS Engine?
 
-## Simple is an Engine that are 4 Mix Engines (Kade Engine, Mic' Up, Pysch Engine and as Funkin Base) This Engine Is Focused On Making Mods Like Tricky, QT And etc, It Has Various Presets For You To Use Easy, Besides Having Pre - More Difficulties Than Normal [It's Not Mandatory, You Just Have To Take It Out Of The Options To Not Change The Game Mode], Plus Much More.
+## Simple is an Engine that are 4 Mix Engines (Kade Engine, Mic' Up, Pysch Engine and as Funkin Base) This Engine Is Focused On Making Mods Like Tricky, QT And etc, It Has Various Presets For You To Use Easy, Besides Having Pre - More Difficulties Than Normal [It's Not Mandatory, You Just Have To Take It Out Of The Options To Not Change The Game Mode], and All Songs Have Been Re-charted, Plus Much More.
 
 # What are Presets in NGE?
 # that's it
