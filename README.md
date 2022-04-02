@@ -1,4 +1,4 @@
-# FNF - NG'S Engine WellCome :D
+# FNF - NG'S Engine Welcome :D
 
 ![NGELogoGithub](https://user-images.githubusercontent.com/86559005/158241054-6e6e2a7a-48a8-43e2-84d3-b035f38d5819.png)
 # What is the NGS Engine?
