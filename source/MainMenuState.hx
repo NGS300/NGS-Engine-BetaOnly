@@ -20,7 +20,7 @@ import lime.app.Application;
 using StringTools;
 
 class MainMenuState extends MusicBeatState{
-	public static var engineVersion:String = "Beta v0.9";
+	public static var engineVersion:String = "0.9";
 	var curSelected:Int = 0;
 	var menuItems:FlxTypedGroup<FlxSprite>;
 	#if !switch
@@ -29,54 +29,29 @@ class MainMenuState extends MusicBeatState{
 	var optionShit:Array<String> = ['story mode', 'freeplay'];
 	#end
 	var camFollow:FlxObject;
-
+	var selectedSomethin:Bool = false;
 	override function create(){
 		#if desktop
 		DiscordClient.changePresence("In the MainMenu", null); // Updating Discord Rich Presence
 		#end
-
 		/*if (Client.mid){
 			FlxG.save.data.hideScrollOpponent = false;
 		}else{
 			FlxG.save.data.hideScrollOpponent = true;
 		}*/
-		
-		/*
-		if (FlxG.save.data.hudMode == 0){
-			FlxG.save.data.elementsHud = true;
-			FlxG.save.data.comboHUD = false;
-			FlxG.save.data.healthHUD = false;
-			FlxG.save.data.accHUD = false;
-			FlxG.save.data.scoreHUD = false;
-			FlxG.save.data.missHUD = false;
-			FlxG.save.data.maxCmbHUD = false;
-			FlxG.save.data.rankingHUD = false;
-			FlxG.save.data.rankBonusHUD = false;
-		}*/
-
 		transIn = FlxTransitionableState.defaultTransIn;
 		transOut = FlxTransitionableState.defaultTransOut;
-
-		if (!FlxG.sound.music.playing){
+		if (!FlxG.sound.music.playing)
 			FlxG.sound.playMusic(Paths.music('freakyMenu'));
-		}
-
 		persistentUpdate = persistentDraw = true;
-
 		StateImage.BGSMenus('MainMenu');
-
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
-
 		StateImage.BGSMenus('MainMenuUnder');
-
-		for (i in StateImage.suckAdd){
+		for (i in StateImage.suckAdd)
 			add(i);
-		}
-
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
-
 		var tex = Paths.getSparrowAtlas('FNF_main_menu_assets');
 		for (i in 0...optionShit.length){
 			var menuItem:FlxSprite = new FlxSprite(0, 60 + (i * 160));
@@ -90,25 +65,17 @@ class MainMenuState extends MusicBeatState{
 			menuItem.scrollFactor.set();
 			menuItem.antialiasing = Client.Antialiasing;
 		}
-
 		FlxG.camera.follow(camFollow, null, 0.06);
-		
-		var versionShit:FlxText = new FlxText(1, FlxG.height - 25, 0, "NGS Engine " + engineVersion, 12);
+		var versionShit:FlxText = new FlxText(1, FlxG.height - 25, 0, "NG'S Engine Beta v" + engineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("Highman.tff", 20, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
-
 		changeItem();
-
 		super.create();
 	}
-
-	var selectedSomethin:Bool = false;
-
 	override function update(elapsed:Float){
-		if (FlxG.sound.music.volume < 0.8){
+		if (FlxG.sound.music.volume < 0.8)
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
-		}
 		if (!selectedSomethin){
 			if (controls.UP_P){
 				FlxG.sound.play(Paths.sound('scrollMenu'));
@@ -118,9 +85,8 @@ class MainMenuState extends MusicBeatState{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 				changeItem(1);
 			}
-			if (controls.BACK){
+			if (controls.BACK)
 				FlxG.switchState(new TitleState());
-			}
 			if (controls.ACCEPT){
 				if (optionShit[curSelected] == 'donate'){
 					#if linux
@@ -160,14 +126,11 @@ class MainMenuState extends MusicBeatState{
 				}
 			}
 		}
-
 		super.update(elapsed);
-
 		menuItems.forEach(function(spr:FlxSprite){
 			spr.screenCenter(X);
 		});
 	}
-
 	function changeItem(huh:Int = 0)
 	{
 		curSelected += huh;

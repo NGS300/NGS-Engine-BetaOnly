@@ -25,11 +25,15 @@ First Step - Download Haxe Items
 2. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to Install Polymod.
 3. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to Install Discord RPC.
 
-### Compiling game
+### Compiling game API
 
 Second Step - Download API or Addons (I don't know the name of it ;-;)
 
 To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved. For Linux, you only need to open a terminal in the project directory and run `lime test linux -debug` and then run the executable file in export/release/linux/bin. For Windows, you need to install Visual Studio Community 2019. While installing VSC, don't click on any of the options to install workloads. Instead, go to the individual components tab and choose the following:
+
+Download [Visual Studio Communty 2019](https://my.visualstudio.com/Downloads?q=visual%20studio%202019&wt.mc_id=o~msft~vscom~older-downloads) & Choice x64 or x86 Bit
+![opera_jpRjZcwqde](https://user-images.githubusercontent.com/86559005/158903575-4f6fe1bb-fa09-4524-97a9-47d5e70a77fb.png)
+
 
 ## English
 * MSVC v142 - VS 2019 C++ x64/x86 build tools

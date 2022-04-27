@@ -1240,7 +1240,8 @@ class PlayState extends MusicBeatState{
 			FlxG.switchState(new ChartingState());
 		}
 		//if (Client.DevTools){ // Dev Tools Shit (Acess Only Use Code in CodeState)
-			if (FlxG.keys.justPressed.NUMLOCK) // NUMLOCK Does Not Exist in Your API (Download From Ngs Engine on Github, Custom API and Replace Yours)
+			//if (FlxG.keys.justPressed.NUMLOCK) // NUMLOCK Does Not Exist in Your API (Download From Ngs Engine on Github, Custom API and Replace Yours)
+			if (FlxG.keys.justPressed.DELETE)
 				endChart();
 			if (FlxG.keys.justPressed.PAGEUP) // BF OFFSETS
 				FlxG.switchState(new AnimationDebug(SONG.player1));
